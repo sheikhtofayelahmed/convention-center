@@ -78,6 +78,7 @@
           }
           .card{
             padding: 10px 5px 5px !important;
+            margin: auto 15px !important;
           }
           .package{
             padding-bottom: 0 !important;
@@ -110,7 +111,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#gallery">Gallery</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">contact</a>
@@ -183,11 +184,46 @@
 
 
             <!-- optional section -->
-            <section class="container mt-4 py-5" style="position: relative;">
+            <section class="container mt-4 pt-3 pb-5" style="position: relative;" id="gallery">
+              <h1 class="text-center py-4">Every moment is Precious </h1>
                 <div class="row d-flex align-items-center optional1">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <img class="img-fluid" src="src/images/wedding.png" alt="">
+                  <div id="carouselExampleControls" class="carousel slide col-lg-6 col-12" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="src/images/gallery-1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/images/gallery-2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/images/gallery-3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/images/gallery-4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/images/gallery-5.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/images/gallery-6.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/images/gallery-7.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="src/images/gallery-8.jpg" class="d-block w-100" alt="...">
+                      </div>
+                     
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
                     <div class="col-lg-6 col-md-6 col-12">
                         <h1>Every moment is Precious </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit necessitatibus distinctio quidem, mollitia incidunt provident minus nam earum veniam eos praesentium quam nemo omnis ducimus aut harum quaerat eum exercitationem!</p>
@@ -199,9 +235,9 @@
                     <div class="toast show align-items-center"  role="alert" aria-live="assertive" aria-atomic="true">
                         <div class="d-flex ">
                             <div class="toast-body ">
-                                <i class="fas fa-gift text-primary"></i> Hello, world! This is a toast message. 
+                                <i class="fas fa-gift text-primary"></i> 20% off! marriage photoshot 
                             </div>
-                            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                            <button type="button" class="btn-close  m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
                         </div>
                     </div>    
                     
@@ -212,7 +248,7 @@
 
 
             <!-- package -->
-            <div class="text-center pb-5 package">
+            <div class="text-center pb-5 package" id="">
                 <h1>Our Packages</h1>
             </div>
             <section class="container">
