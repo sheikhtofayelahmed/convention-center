@@ -21,6 +21,7 @@
         .toast{
             position: absolute;
             right: 0; 
+            top: 160px;
             border-left: 5px solid #3F87F5;
         }
         footer{
@@ -60,6 +61,13 @@
             color: #3F87F5;
             border-radius: 30px;
         }
+        #btn-2{
+            font-weight: 500;
+            padding: 10px 40px;
+            color: #fef5fa;
+            background-color: #3F87F5;
+            border-radius: 30px;
+        }
         @media (max-width: 767.98px) { 
           
           .faq{
@@ -91,6 +99,13 @@
             font-weight: 400;
             
         }
+        .toast{
+            
+            right: 0; 
+            top: 400px;
+            width: 250px;
+             
+        }
         }  
     </style>
 
@@ -114,7 +129,7 @@
                     <a class="nav-link" href="#gallery">Gallery</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="#packages">Packages</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#faq">FAQ</a>
@@ -139,7 +154,7 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/src/images/banner-1.png" class="d-block " alt="...">
+                <img src="/src/images/banner/banner-1.png" class="d-block " alt="...">
                 <div class="carousel-caption d-block d-md-block">
                     <h1>A magnificent marriage begins in a <br> magnificent place.</h1>
                     <p>Imagine your event on the St. Johns River in the desirable and conveniently located Riverside.</p>
@@ -147,7 +162,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="src/images/banner-2.jpg" class="d-block " alt="...">
+                <img src="src/images/banner/banner-2.jpg" class="d-block " alt="...">
                 <div class="carousel-caption d-block d-md-block">
                     <h1>We are here to arrange <br> your upcoming reception </h1>
                     <p>When you marry at Castle Hill Inn, we are exclusively yours, always, hosting unique weddings</p>
@@ -155,7 +170,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="src/images/banner-3.jpg" class="d-block " alt="...">
+                <img src="src/images/banner/banner-3.jpg" class="d-block " alt="...">
                 <div class="carousel-caption d-block d-md-block">
                   <h1>Castle Hill Inn is ready <br> to welcome you</h1>
                   <p>Castle Hill Inn is an unforgettable wedding venue setting for all styles of celebration.</p>
@@ -183,35 +198,35 @@
             
 
 
-            <!-- optional section -->
+            <!-- bonus section -->
             <section class="container mt-4 pt-3 pb-5" style="position: relative;" id="gallery">
               <h1 class="text-center py-4">Every moment is Precious </h1>
-                <div class="row d-flex align-items-center optional1">
-                  <div id="carouselExampleControls" class="carousel slide col-lg-6 col-12" data-bs-ride="carousel">
-                    <div class="carousel-inner">
+                <div class="row optional1 g-5">
+                  <div id="carouselExampleControls" class="carousel slide col-lg-7 col-md-7 col-12 " data-bs-ride="carousel">
+                    <div class="carousel-inner"> 
                       <div class="carousel-item active">
-                        <img src="src/images/gallery-1.jpg" class="d-block w-100" alt="...">
+                        <img src="src/images/gallery/gallery-1.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="src/images/gallery-2.jpg" class="d-block w-100" alt="...">
+                        <img src="src/images/gallery/gallery-2.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="src/images/gallery-3.jpg" class="d-block w-100" alt="...">
+                        <img src="src/images/gallery/gallery-3.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="src/images/gallery-4.jpg" class="d-block w-100" alt="...">
+                        <img src="src/images/gallery/gallery-4.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="src/images/gallery-5.jpg" class="d-block w-100" alt="...">
+                        <img src="src/images/gallery/gallery-5.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="src/images/gallery-6.jpg" class="d-block w-100" alt="...">
+                        <img src="src/images/gallery/gallery-6.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="src/images/gallery-7.jpg" class="d-block w-100" alt="...">
+                        <img src="src/images/gallery/gallery-7.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="src/images/gallery-8.jpg" class="d-block w-100" alt="...">
+                        <img src="src/images/gallery/gallery-8.jpg" class="d-block w-100" alt="...">
                       </div>
                      
                     </div>
@@ -224,10 +239,38 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <h1>Every moment is Precious </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit necessitatibus distinctio quidem, mollitia incidunt provident minus nam earum veniam eos praesentium quam nemo omnis ducimus aut harum quaerat eum exercitationem!</p>
-                        <a href="https://www.castlehillinn.com/gallery" class="btn">Explore our album &nbsp &nbsp<i class="fas fa-arrow-right"></i></a>
+                    <div class="col-lg-5 col-md-5 col-12 ">
+                        <h5>Not only Wedding, We'll capture your every moments. Our pride is in offering the best shoots as we help you tell your story in photos.</h5>
+                        <p> </p>
+                        
+
+
+                        <div class="row g-4 pb-3">
+                          <div class="">
+                            <div class="p-3 text-center" style="background-image:url(src/images/bg/bg-camera.jpg);background-repeat: no-repeat;border-radius: 25px;">
+                              <h1 class="text-white ps-3 py-4">photoshot</h1>
+                             
+                            </div>
+                          </div>
+                          <div class="">
+                            <div class="p-3 text-center" style="background-image:url(src/images/bg/bg-cinema.jpg);background-repeat: no-repeat;border-radius: 25px;">
+                              <h1 class="text-white ps-3 py-4">Cinematography</h1>
+                              
+                            </div>
+                          </div>
+                          <div class="">
+                            <div class="p-3 text-center" style="background-image:url(src/images/bg/bg-edit.jpg);background-repeat: no-repeat;border-radius: 25px;">
+                              <h1 class="text-white ps-3 py-4">Production</h1>
+                              
+                            </div>
+                          </div>
+                          
+                        </div>
+                        
+                        <a href="https://www.castlehillinn.com/gallery" class="btn" id="btn-2">Explore our album &nbsp &nbsp<i class="fas fa-arrow-right"></i></a>
+
+
+
                     </div>
 
                 <!-- toast section -->
@@ -248,7 +291,7 @@
 
 
             <!-- package -->
-            <div class="text-center pb-5 package" id="">
+            <div class="text-center pb-5 package" id="packages">
                 <h1>Our Packages</h1>
             </div>
             <section class="container">
@@ -366,7 +409,7 @@
                           <p class="card-text text-center px-5 ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
     
-                        <img class="p-2" width="100" height="100" src="src/images/person 1.png"alt="...">
+                        <img class="p-2" width="100" height="100" src="src/images/person/person 1.png"alt="...">
                         <h6>dfaddddddddd</h6>
                             <p>dfasdaddddd</p>
                       
@@ -380,7 +423,7 @@
                           <p class="card-text text-center px-5 ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
     
-                        <img class="p-2" width="100" height="100" src="src/images/person 2.png"alt="...">
+                        <img class="p-2" width="100" height="100" src="src/images/person/person 2.png"alt="...">
                         <h6>dfaddddddddd</h6>
                             <p>dfasdaddddd</p>
                         
@@ -394,7 +437,7 @@
                           <p class="card-text text-center px-5">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
     
-                        <img class="p-2" width="100" height="100" src="src/images/person 3.png"alt="...">
+                        <img class="p-2" width="100" height="100" src="src/images/person/person 3.png"alt="...">
                         <h6>dfaddddddddd</h6>
                             <p>dfasdaddddd</p>
 
