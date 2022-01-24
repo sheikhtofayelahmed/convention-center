@@ -216,13 +216,13 @@
             <section class="container">
                 <div class="row g-2">
                     <div class="col-lg-3 col-md-6 col-12">
-                      <div class="card h-100 border-0 px-2 py-5">
+                      <div class="card h-100 border-0 p-2">
                         <div class="card-body">
-                          <div class="card-title">
+                          <div class="card-title" id="card-title">
                             <h3 class="fw-bold">$300</h3>
                             <h5 class="fw-bold">Business fair</h5>
                           </div>  
-                          <div class="card-text">
+                          <div class="card-text" id="card-text">
                             <p>For businesses event like book fair, craft fair.</p>
                             <p><i class="fas fa-check-circle"></i> limited space access</p>
                             <p><i class="fas fa-check-circle"></i> Secuirty facility</p>
@@ -232,20 +232,20 @@
                           </div>
                         
                          <div class="text-center py-2">
-                            <a href="#" class="btn">Choose plan</a>
+                            <a href="#" class="btn" id="btn-1">Choose plan</a>
                          </div>
                         
                       </div>
                       </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                        <div class="card h-100 border-0 px-2 py-5">
+                        <div class="card h-100 border-0 p-2">
                           <div class="card-body">
-                            <div class="card-title">
+                            <div class="card-title" id="card-title">
                               <h3 class="fw-bold">$500</h3>
                               <h5 class="fw-bold">wedding basic</h5>
                             </div>  
-                            <div class="card-text">
+                            <div class="card-text" id="card-text">
                               <p>For weddings with basic plan and limited item</p>
                               <p><i class="fas fa-check-circle"></i> Full space access</p>
                               <p><i class="fas fa-check-circle"></i> Food arrangement</p>
@@ -255,14 +255,14 @@
                             </div>
                           
                            <div class="text-center py-2">
-                              <a href="#" class="btn">Choose plan</a>
+                              <a href="#" class="btn" id="btn-1">Choose plan</a>
                            </div>
                           
                         </div>
                         </div>
                       </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                      <div class="card h-100 border-0 px-2 py-5 card-highlight">
+                      <div class="card h-100 border-0 p-2 " id="hot-card"> 
                         <div class="card-body">
                           <div class="">
                             <h3 class="fw-bold">$800</h3>
@@ -277,19 +277,19 @@
                           </div>
                         
                          <div class="text-center py-2">
-                            <a href="#" class="btn">Choose plan</a>
+                            <a href="#" class="btn" id="btn-1">Choose plan</a>
                          </div>
                         </div>
                       </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                        <div class="card h-100 border-0 px-2 py-5">
+                        <div class="card h-100 border-0 p-2">
                           <div class="card-body">
-                            <div class="card-title">
+                            <div class="card-title" id="card-title">
                               <h3 class="fw-bold">$1200</h3>
                               <h5 class="fw-bold">Corporate event</h5>
                             </div>  
-                            <div class="card-text">
+                            <div class="card-text" id="card-text">
                               <p>For most corporate business events</p>
                               <p><i class="fas fa-check-circle"></i> Full space access</p>
                               <p><i class="fas fa-check-circle"></i> Dedicated team</p>
@@ -299,7 +299,7 @@
                             </div>
                           
                            <div class="text-center py-2">
-                              <a href="#" class="btn">Choose plan</a>
+                              <a href="#" class="btn" id="btn-1">Choose plan</a>
                            </div>
                           
                         </div>
@@ -314,7 +314,7 @@
 
             <!-- happy client -->
 
-            <div class="text-center pt-5">
+            <div class="text-center pt-5 px-2">
                 <h1>Our happy client says</h1>
             </div>
             <section class="container container py-5 ">
@@ -436,6 +436,51 @@
                     </div>
                 </div>
             </section>
+
+
+
+            <section class="container py-2 mb-4 d-flex flex-column align-items-center justify-content-center slider rounded-3" id="subscribe">
+              <div class="text-center">
+                <h1>
+                  Please don't forget to give your feedback
+                </h1>
+
+                
+                
+              </div>
+              <div class="form-floating py-3 w-auto">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Tell something about us.....</label>
+              </div>
+              <p>
+                To get updates on offer, specials and more fill up down below
+              </p>
+        
+              <div class="">
+                <form class="row gx-3 gy-2 align-items-center d-flex align-items-center justify-content-center">
+                  <div class="col-sm-4">
+                    <label class="visually-hidden" for="specificSizeInputName">Name</label>
+                    <input type="text" class="form-control" id="specificSizeInputName" placeholder="Your Name">
+                  </div>
+                  <div class="col-sm-4">
+                    <label class="visually-hidden" for="specificSizeInputGroupUsername">Email</label>
+                    <div class="input-group">
+                      <div class="input-group-text text-primary">@</div>
+                      <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Your Email">
+                    </div>
+                  </div>
+                  
+                  <div class="col-auto">
+                    <button type="submit" class="btn" id="btn-2">Submit</button>
+                  </div>
+                  <p class="text-center">Click here to submit your feedback and your info</p>
+                </form>
+              </div>
+        
+        
+            </section>
+
+
 
         </main>
 

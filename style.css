@@ -25,19 +25,19 @@ body{
     background-repeat: no-repeat;
     border-radius: 25px;
 }
-.card-title{
+#card-title{
     color: #231D4F!important;
 }
-.card-text{
+#card-text{
     color: #848199 !important;
-    font-size: 0.75rem;
+   
 }
-.card-highlight{
+#hot-card{
     background-color: #3F87F5;
     color: white;
     border-radius: 25px;
     position: relative;
-    font-size: 0.75rem;
+    
 }
 .hot-deal{
     position: absolute;
@@ -50,7 +50,7 @@ body{
 }
 
 
-.btn{
+#btn-1{
     font-weight: 500;
     padding: 10px 40px;
     background-color: #fef5fa;
