@@ -9,106 +9,15 @@
     <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/9341b58e9e.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+  
 </head>
 <body>
 
-    <!-- style -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-        .toast{
-            position: absolute;
-            right: 0; 
-            top: 160px;
-            border-left: 5px solid #3F87F5;
-        }
-        footer{
-            background-color: black;
-        }
-        .card-title{
-            color: #231D4F!important;
-        }
-        .card-text{
-            color: #848199 !important;
-            font-size: 0.75rem;
-        }
-        .card-highlight{
-            background-color: #3F87F5;
-            color: white;
-            border-radius: 25px;
-            position: relative;
-            font-size: 0.75rem;
-        }
-        .hot-deal{
-            position: absolute;
-            top: -12px;
-            right: 18px;
-            background-color: #FF4E4E;
-            padding: 0 10px;
-            border-radius: 25px;
-            
-        }
-        body{
-        font-family: 'Poppins', sans-serif;
-        }
-        
-        .btn{
-            font-weight: 500;
-            padding: 10px 40px;
-            background-color: #fef5fa;
-            color: #3F87F5;
-            border-radius: 30px;
-        }
-        #btn-2{
-            font-weight: 500;
-            padding: 10px 40px;
-            color: #fef5fa;
-            background-color: #3F87F5;
-            border-radius: 30px;
-        }
-        @media (max-width: 767.98px) { 
-          
-          .faq{
-            flex-direction: column-reverse;
-          }
-          .footer{
-            flex-direction: column-reverse;
-          }
-          .footer-link{
-            align-items: center;
-          }
-          .footer-text{
-            text-align: center;
-            padding: 10px 0 !important;
-            font-size:0.75em !important;
-          }
-          .card{
-            padding: 10px 5px 5px !important;
-            margin: auto 15px !important;
-          }
-          .package{
-            padding-bottom: 0 !important;
-          }
-          .client{
-            margin-top: 5px !important;
-          }
-          p{
-            font-size: 14px !important;
-            font-weight: 400;
-            
-        }
-        .toast{
-            
-            right: 0; 
-            top: 400px;
-            width: 250px;
-             
-        }
-        }  
-    </style>
-
+    
     <!-- header -->
 
     <header>
@@ -199,6 +108,9 @@
 
 
             <!-- bonus section -->
+
+
+
             <section class="container mt-4 pt-3 pb-5" style="position: relative;" id="gallery">
               <h1 class="text-center py-4">Every moment is Precious </h1>
                 <div class="row optional1 g-5">
@@ -247,19 +159,19 @@
 
                         <div class="row g-4 pb-3">
                           <div class="">
-                            <div class="p-3 text-center" style="background-image:url(src/images/bg/bg-camera.jpg);background-repeat: no-repeat;border-radius: 25px;">
+                            <div class="p-3 text-center photoshot" >
                               <h1 class="text-white ps-3 py-4">photoshot</h1>
                              
                             </div>
                           </div>
                           <div class="">
-                            <div class="p-3 text-center" style="background-image:url(src/images/bg/bg-cinema.jpg);background-repeat: no-repeat;border-radius: 25px;">
+                            <div class="p-3 text-center cinematography" >
                               <h1 class="text-white ps-3 py-4">Cinematography</h1>
                               
                             </div>
                           </div>
                           <div class="">
-                            <div class="p-3 text-center" style="background-image:url(src/images/bg/bg-edit.jpg);background-repeat: no-repeat;border-radius: 25px;">
+                            <div class="p-3 text-center production" >
                               <h1 class="text-white ps-3 py-4">Production</h1>
                               
                             </div>
@@ -273,7 +185,11 @@
 
                     </div>
 
+
+
                 <!-- toast section -->
+
+
             
                     <div class="toast show align-items-center"  role="alert" aria-live="assertive" aria-atomic="true">
                         <div class="d-flex ">
@@ -290,7 +206,10 @@
             </section>
 
 
-            <!-- package -->
+            <!-- packages -->
+
+
+
             <div class="text-center pb-5 package" id="packages">
                 <h1>Our Packages</h1>
             </div>
@@ -401,45 +320,41 @@
             <section class="container container py-5 ">
                 
                 <div class="row row-cols-1 row-cols-md-3 g-5">
-                    <div class="col  client">
+                    <div class="col client">
                       <div class="card h-100 d-flex align-items-center border-0 shadow py-3 ">
                         
                         <div class="card-body">
                           
-                          <p class="card-text text-center px-5 ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text text-center px-5 ">"Our overall experience with meetings at the Castle Hill Inn convention center had been excellent. Bernadeen and Gail are awesome to work with. Thank you so much!" </p>
                         </div>
     
                         <img class="p-2" width="100" height="100" src="src/images/person/person 1.png"alt="...">
-                        <h6>dfaddddddddd</h6>
-                            <p>dfasdaddddd</p>
+                        <h6>Kay Manning</h6>
+                        <p>Smith Engineering</p>
                       
                       </div>
                     </div>
                     <div class="col">
                       <div class="card h-100 d-flex align-items-center border-0 shadow py-3 ">
-                      
                         <div class="card-body">
-                          
-                          <p class="card-text text-center px-5 ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text text-center px-5 ">"The staff at the Castle Hill Inn convention center is great to work with. We would not be able to pull off such a great conference without all of their help. So thank you."</p>
                         </div>
     
                         <img class="p-2" width="100" height="100" src="src/images/person/person 2.png"alt="...">
-                        <h6>dfaddddddddd</h6>
-                            <p>dfasdaddddd</p>
+                        <h6> EMS Region III</h6>
+                        <p>Region Alpha</p>
                         
                       </div>
                     </div>
                     <div class="col">
                       <div class="card h-100 d-flex align-items-center border-0 shadow py-3">
-                        
                         <div class="card-body">
-                          
-                          <p class="card-text text-center px-5">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text text-center px-5">It is always a great conference at the Castle Hill Inn convention center . The relaxed atmosphere, great surroundings, and very friendly and attentive staff make it all come together and work great." </p>
                         </div>
     
                         <img class="p-2" width="100" height="100" src="src/images/person/person 3.png"alt="...">
-                        <h6>dfaddddddddd</h6>
-                            <p>dfasdaddddd</p>
+                        <h6>Colette Schobbens</h6>
+                        <p>colette corporation</p>
 
                       </div>
                     </div>
@@ -460,7 +375,8 @@
             <section class="container pb-5" id="faq">
                 <div class="row d-flex align-items-center faq">
                     <div class="accordion col-lg-6 py-3" id="accordionExample">
-                        <div class="accordion-item">
+                        
+                      <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 What's the difference between event design and event planning? 
@@ -472,6 +388,7 @@
                             </div>
                           </div>
                         </div>
+                        
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -484,6 +401,7 @@
                             </div>
                           </div>
                         </div>
+                        
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -496,6 +414,7 @@
                             </div>
                           </div>
                         </div>
+                        
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -523,6 +442,8 @@
 
 
         <!-- footer -->
+         
+        
         <footer class="mt-4 p-5">
             <div class="row d-flex justify-content-between align-items-center footer">
                 <div class="col-lg-6 ps-5 text-light footer-text">© 2022 Castle Hill Inn . All rights reserved</div>
@@ -530,8 +451,6 @@
                     <h5 class="text-light ">Get The App</h5>
                     <a class="py-1" href="https://www.apple.com/app-store/"><img class="border rounded" width="150" height="50" src="src/icons/app-store.png" alt=""></a>
                     <a class="py-1" href="https://play.google.com/store/apps"><img class="border rounded" width="150" height="50" src="src/icons/playstore.png" alt=""></a>
-                    
-                    
                 </div>
             </div>
         </footer>

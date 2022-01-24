@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.toast{
+    position: absolute;
+    right: 0; 
+    top: 160px;
+    border-left: 5px solid #3F87F5;
+}
+.photoshot{
+    background-image:url(src/images/bg/bg-camera.jpg);
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.cinematography{
+    background-image:url(src/images/bg/bg-cinema.jpg);
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.production{
+    background-image:url(src/images/bg/bg-edit.jpg);
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.card-title{
+    color: #231D4F!important;
+}
+.card-text{
+    color: #848199 !important;
+    font-size: 0.75rem;
+}
+.card-highlight{
+    background-color: #3F87F5;
+    color: white;
+    border-radius: 25px;
+    position: relative;
+    font-size: 0.75rem;
+}
+.hot-deal{
+    position: absolute;
+    top: -12px;
+    right: 18px;
+    background-color: #FF4E4E;
+    padding: 0 10px;
+    border-radius: 25px;
+    
+}
+
+
+.btn{
+    font-weight: 500;
+    padding: 10px 40px;
+    background-color: #fef5fa;
+    color: #3F87F5;
+    border-radius: 30px;
+}
+#btn-2{
+    font-weight: 500;
+    padding: 10px 40px;
+    color: #fef5fa;
+    background-color: #3F87F5;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: black;
+}
+
+
+
+@media (max-width: 767.98px) { 
+    
+   p{font-size: 14px !important;
+     font-weight: 400;
+  }
+    
+  .faq{
+    flex-direction: column-reverse;
+  }
+  
+  .package{
+    padding-bottom: 0 !important;
+  }
+  .card{
+    padding: 10px 5px 5px !important;
+    margin: auto 15px !important;
+  }
+  
+  .client{
+    margin-top: 5px !important;
+  }
+
+.toast{
+    
+    right: 0; 
+    top: 400px;
+    width: 250px;
+   
+}
+.footer{
+    flex-direction: column-reverse;
+  }
+  .footer-link{
+    align-items: center;
+  }
+  .footer-text{
+    text-align: center;
+    padding: 10px 0 !important;
+    font-size:0.75em !important;
+  }
+}  
