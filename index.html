@@ -31,12 +31,14 @@
         }
         .card-text{
             color: #848199 !important;
+            font-size: 0.75rem;
         }
         .card-highlight{
             background-color: #3F87F5;
             color: white;
             border-radius: 25px;
             position: relative;
+            font-size: 0.75rem;
         }
         .hot-deal{
             position: absolute;
@@ -63,8 +65,29 @@
             font-size: 1.2rem;
 
           }
-          
-          
+          .faq{
+            flex-direction: column-reverse;
+          }
+          .footer{
+            flex-direction: column-reverse;
+          }
+          .footer-link{
+            align-items: center;
+          }
+          .footer-text{
+            text-align: center;
+            padding: 10px 0 !important;
+            font-size:0.75em !important;
+          }
+          .card{
+            padding: 10px 5px 5px !important;
+          }
+          .package{
+            padding-bottom: 0 !important;
+          }
+          .client{
+            margin-top: 5px !important;
+          }
         }  
     </style>
 
@@ -73,7 +96,7 @@
     <header>
         <!-- navigation -->
 
-        <nav class="navbar navbar-expand-lg navbar-light mb-2">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
               <a class="navbar-brand fw-bold" href="#">Castle Hill Inn</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -158,7 +181,7 @@
 
 
             <!-- optional section -->
-            <section class="container my-5 py-5" style="position: relative;">
+            <section class="container mt-4 py-5" style="position: relative;">
                 <div class="row d-flex align-items-center optional1">
                     <div class="col-lg-6 col-md-6 col-12">
                         <img class="img-fluid" src="src/images/wedding.png" alt="">
@@ -187,13 +210,13 @@
 
 
             <!-- package -->
-            <div class="text-center pb-5 ">
+            <div class="text-center pb-5 package">
                 <h1>Our Packages</h1>
             </div>
             <section class="container">
-                <div class="row g-5">
+                <div class="row g-2">
                     <div class="col-lg-3 col-md-6 col-12">
-                      <div class="card h-100 border-0 px-3 py-5">
+                      <div class="card h-100 border-0 px-2 py-5">
                         <div class="card-body">
                           <div class="card-title">
                             <h3 class="fw-bold">$300</h3>
@@ -216,7 +239,7 @@
                       </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                        <div class="card h-100 border-0 px-3 py-5">
+                        <div class="card h-100 border-0 px-2 py-5">
                           <div class="card-body">
                             <div class="card-title">
                               <h3 class="fw-bold">$500</h3>
@@ -239,7 +262,7 @@
                         </div>
                       </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                      <div class="card h-100 border-0 px-3 py-5 card-highlight">
+                      <div class="card h-100 border-0 px-2 py-5 card-highlight">
                         <div class="card-body">
                           <div class="">
                             <h3 class="fw-bold">$800</h3>
@@ -260,7 +283,7 @@
                       </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                        <div class="card h-100 border-0 px-3 py-5">
+                        <div class="card h-100 border-0 px-2 py-5">
                           <div class="card-body">
                             <div class="card-title">
                               <h3 class="fw-bold">$1200</h3>
@@ -289,20 +312,20 @@
 
 
 
-            <!-- card -->
+            <!-- happy client -->
 
-            <div class="text-center mt-5">
+            <div class="text-center pt-5">
                 <h1>Our happy client says</h1>
             </div>
-            <section class="container container my-5 py-5">
+            <section class="container container py-5 ">
                 
                 <div class="row row-cols-1 row-cols-md-3 g-5">
-                    <div class="col">
-                      <div class="card h-100 d-flex align-items-center border-0 shadow px-5">
+                    <div class="col  client">
+                      <div class="card h-100 d-flex align-items-center border-0 shadow py-3 ">
                         
                         <div class="card-body">
                           
-                          <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text text-center px-5 ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
     
                         <img class="p-2" width="100" height="100" src="src/images/person 1.png"alt="...">
@@ -312,11 +335,11 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100 d-flex align-items-center border-0 shadow px-5">
-                        
+                      <div class="card h-100 d-flex align-items-center border-0 shadow py-3 ">
+                      
                         <div class="card-body">
                           
-                          <p class="card-text text-center ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text text-center px-5 ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
     
                         <img class="p-2" width="100" height="100" src="src/images/person 2.png"alt="...">
@@ -326,11 +349,11 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100 d-flex align-items-center border-0 shadow px-5 ">
+                      <div class="card h-100 d-flex align-items-center border-0 shadow py-3">
                         
                         <div class="card-body">
                           
-                          <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text text-center px-5">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
     
                         <img class="p-2" width="100" height="100" src="src/images/person 3.png"alt="...">
@@ -348,14 +371,14 @@
 
             <!-- accordion / faq -->
 
-            <div class="text-center mt-5 pb-5">
+            <div class="text-center  pb-5">
                 <h1>Frequently asled questions</h1>
             </div>
 
 
-            <section class="container" id="faq">
-                <div class="row">
-                    <div class="accordion col-lg-6" id="accordionExample">
+            <section class="container pb-5" id="faq">
+                <div class="row d-flex align-items-center faq">
+                    <div class="accordion col-lg-6 py-3" id="accordionExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -419,11 +442,11 @@
 
 
         <!-- footer -->
-        <footer class="mt-5 p-5">
-            <div class="row d-flex justify-content-between align-items-center">
-                <div class="col-lg-3 text-light">© 2022 Castle Hill Inn . All rights reserved</div>
-                <div class="col-lg-3 d-flex flex-column">
-                    <h5 class="text-light">Get The App</h5>
+        <footer class="mt-4 p-5">
+            <div class="row d-flex justify-content-between align-items-center footer">
+                <div class="col-lg-6 ps-5 text-light footer-text">© 2022 Castle Hill Inn . All rights reserved</div>
+                <div class="col-lg-3 d-flex flex-column footer-link">
+                    <h5 class="text-light ">Get The App</h5>
                     <a class="py-1" href="https://www.apple.com/app-store/"><img class="border rounded" width="150" height="50" src="src/icons/app-store.png" alt=""></a>
                     <a class="py-1" href="https://play.google.com/store/apps"><img class="border rounded" width="150" height="50" src="src/icons/playstore.png" alt=""></a>
                     
