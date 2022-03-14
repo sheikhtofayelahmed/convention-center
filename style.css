@@ -7,7 +7,7 @@ body{
 .toast{
     position: absolute;
     right: 0; 
-    top: 160px;
+    top: -50px;
     border-left: 5px solid #3F87F5;
 }
 .photoshot{
@@ -94,12 +94,14 @@ footer{
   }
 
 .toast{
-    
+    margin: 0 !important;
+    padding: 0!important;
     right: 0; 
-    top: 400px;
-    width: 250px;
-   
+    top: 450px;
+    width: 200px!important;
+    font-size: 10px!important;
 }
+
 .footer{
     flex-direction: column-reverse;
   }
